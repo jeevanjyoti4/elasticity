@@ -5,3 +5,5 @@ Since the derivation of the biharmonic equation in polar coordinates is rather l
 We are following the development of the ideas as presented in the classic "Theory of Elasticity" by Timoshenko and Goodier, 3rd edition. 
 
 The first file ["Defns_and_PressureVessel.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/Defns_and_PressureVessel.ipynb) is where all the transformations from the rectangular Cartesian coordinate system to the polar coordinate system required to obtain the biharmonic equation are set up. The stresses are also transformed from the rectangular Cartesian coordinate system to the polar coordinate system. Then these defintions are used to solve the thick-walled pressure vessel problem. 
+
+Here is the binder link to launch the first file: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jeevanjyoti4/elasticity/master?filepath=Defns_and_PressureVessel.ipynb)
