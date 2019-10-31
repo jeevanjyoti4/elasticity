@@ -1,4 +1,4 @@
-I am teaching the course "Applied Elasticity" (ME40605/ME60401) taken by the 1st year postgraduate students of Mechanical Engineering with specialization in "Mechanical Systems Design". It is also taken by the students by the fourth year Dual Degree with the same specialization. 
+I am teaching the course "Applied Elasticity" (ME40605/ME60401) taken by the 1st year postgraduate students of Mechanical Engineering with specialization in "Mechanical Systems Design". It is also taken by the students of fourth year Dual Degree with the same specialization. 
 
 Since the derivation of the biharmonic equation in polar coordinates is rather long, I thought of using Jupyter Notebook and SymPy to programmatically derive the expressions. 
 
