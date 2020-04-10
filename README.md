@@ -1,10 +1,13 @@
+<h1 align="center">Applied Elasticity</h1>
+<h2 align="center">Mechanical Engineering Department, Indian Institute of Technology Kharagpur</h2>
+
 [![DOI](https://zenodo.org/badge/215966846.svg)](https://zenodo.org/badge/latestdoi/215966846)
 
-I am teaching the course "Applied Elasticity" (ME40605/ME60401) taken by the 1st year postgraduate students of Mechanical Engineering with specialization in "Mechanical Systems Design". It is also taken by the students of fourth year Dual Degree with the same specialization. 
+This is a repository of Jupyter Notebook files that were used to teach the second half of the course "Applied Elasticity" (ME40605/ME60401) in Autumn, 2019. This course is taken by the 1st year postgraduate students of Mechanical Engineering with specialization in "Mechanical Systems Design". It is also taken by the students of fourth year Dual Degree with the same specialization. It is also taken by a few Ph.D. students towards completion of their course work requirements.
 
 Since the derivation of the biharmonic equation in polar coordinates is rather long, I thought of using Jupyter Notebook and SymPy to programmatically derive the expressions. 
 
-We are following the development of the ideas as presented in the classic "Theory of Elasticity" by Timoshenko and Goodier, 3rd edition. 
+We followed the development of the ideas as presented in the classic "Theory of Elasticity" by Timoshenko and Goodier, 3rd edition. 
 
 1. The first file ["Defns_and_PressureVessel.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/Defns_and_PressureVessel.ipynb) is where all the transformations from the rectangular Cartesian coordinate system to the polar coordinate system required to obtain the biharmonic equation are set up. The stresses are also transformed from the rectangular Cartesian coordinate system to the polar coordinate system. Then these defintions are used to solve the thick-walled pressure vessel problem. <br><br> Here is the binder link to launch the first file: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jeevanjyoti4/elasticity/master?filepath=Defns_and_PressureVessel.ipynb)
 
