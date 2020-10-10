@@ -24,9 +24,11 @@ We follow the development of the ideas as presented in the classic "Theory of El
 <br>
 
 
-<!--
-* The file ["CurvedBar_PureBending.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/CurvedBar_PureBending.ipynb) addresses the problem of pure bending of a curved bar. Unlike the first file, in this second file we do not write out all the definitions to set up the biharmonic equation and the stress components in polar coordinates. Instead we copy all those definitions from the first file in a separate Python file called [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) and then from within "CurvedBar_PureBending.ipynb" import the contents of this separate Python file. <br><br>**Important:** If one wishes to download this file and run it locally, the [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) must be downloaded too and stored in the same folder. <br><br>Here is the binder link to launch the second file: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jeevanjyoti4/elasticity/master?filepath=CurvedBar_PureBending.ipynb)
+* The file ["CurvedBar_PureBending_onlystress.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/CurvedBar_PureBending_onlystress.ipynb) addresses the problem of pure bending of a curved bar. This file uses the [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) file. <br><br>Here is the binder link to launch this file: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jeevanjyoti4/elasticity/master?filepath=CurvedBar_PureBending_onlystress.ipynb)
 
+
+
+<!--
 <br>
 
 * The file ["CurvedBar_HorizontalLoad.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/CurvedBar_HorizontalLoad.ipynb) addresses the problem of a curved bar with a horizontal shear load at one end with the other end clamped. This file too uses the [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) file. <br><br>Here is the binder link to launch the third file: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jeevanjyoti4/elasticity/master?filepath=CurvedBar_HorizontalLoad.ipynb)
